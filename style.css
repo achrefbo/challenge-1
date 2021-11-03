@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+/*----Global--------*/
+:root {
+  font-family: "Nunito", sans-serif;
+  --bgcolor: #34495e;
+  --bleu: #3498db;
+  --orange: #e67e22;
+  font-size: 16px;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+h2 {
+  padding: 2px 0px;
+  font-size: 2rem;
+  line-height: 50px;
+}
+h1 {
+  font-size: 3rem;
+
+  line-height: 100px;
+  
+}
+
+/*------Section Principale -----*/
+section {
+   
+  padding: 0px 20px;
+  background: var(--bgcolor);
+  color: white;
+  height: 100vh;
+}
+.cont-1 {
+   margin-top: 5px;
+  display: flex;
+  
+}
+.container-1,
+.container-2,
+.container-4,
+.container-3 {
+  border-style: solid;
+  padding: 15px 15px 50px 15px;
+  border-radius: 10px;
+  width: 100%;
+  margin-right: 5px;
+  
+}
+.container-1 {
+  background: var(--orange);
+}
+.container-4 {
+  background: var(--bleu);
+}
+.container-2,
+.container-3 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container-2 {
+  background-image: url(img/3.jpeg);
+}
+.container-3 {
+  background-image: url(img/2.jpg);
+}
